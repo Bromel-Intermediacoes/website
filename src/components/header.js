@@ -8,27 +8,9 @@ const Header = ({ siteTitle }) => (
     <div className={"container"}>
       <div className={"top-menu"}>
         <div className={"logo"}>
-          <Link to="/" title={"HiStaff"}>
+          <Link to="/" title={"Bromel"}>
             <img alt={"Logo"} src={logo} />
           </Link>
-        </div>
-        <div className={"top-menu-links"}>
-          <div className={"sign-up"}>
-            <a
-              href={
-                "https://bromel.minhaconta.zoop.com.br/login?redirect=/vendas"
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Cadastro
-            </a>
-          </div>
-          <div className={"get-started"}>
-            <a href={"/dashboard"} target="_blank" rel="noopener noreferrer">
-              Acessar
-            </a>
-          </div>
         </div>
       </div>
     </div>
