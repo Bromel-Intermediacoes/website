@@ -118,6 +118,8 @@ body {
     }
 
     &.home {
+      padding-right: 15px;
+      padding-left: 15px;
       padding-bottom: 30px;
     }
 
@@ -196,7 +198,7 @@ body {
   }
 
   .call-to-action {
-    background-color: #8953b7;
+    background-color: #58b854;
     color: #ffffff;
     padding: 65px 0;
     border-radius: 40px 40px 0px 0px;
@@ -237,7 +239,7 @@ body {
         justify-content: center;
         font-weight: bold;
         flex-direction: column;
-        color: #8953b7;
+        color: #58b854;
 
         @media screen and (max-width: $break-small) {
           margin: 0 auto;
