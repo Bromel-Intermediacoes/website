@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Bromel`,
-    description: `Soluções em Serviços Financeiros`,
-    author: `@mostafasoufi`,
+    description: `Resolvemos toda burocracia envolvida no Mercado Financeiro e nos Meios
+    de Pagamento para que você possa focar no que realmente importa, o seu
+    dinheiro!`,
+    author: `Bromel Intermediacoes de Negocios Eireli`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
