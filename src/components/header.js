@@ -18,16 +18,14 @@ const Header = ({ siteTitle }) => (
               href={
                 "https://bromel.minhaconta.zoop.com.br/login?redirect=/vendas"
               }
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Cadastro
             </a>
           </div>
           <div className={"get-started"}>
-            <a
-              href={
-                "https://bromel.minhaconta.zoop.com.br/login?redirect=/vendas"
-              }
-            >
+            <a href={"/dashboard"} target="_blank" rel="noopener noreferrer">
               Acessar
             </a>
           </div>
