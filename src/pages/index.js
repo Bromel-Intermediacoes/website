@@ -16,11 +16,9 @@ const IndexPage = () => (
     <div className={"page-header home"}>
       <h1>Soluções em Serviços Financeiros</h1>
       <p>
-        HiStaff gives your complex the opportunity to increase the percentage of
-        happiness
-        <br />
-        and enjoyment of your staff and as a result, bring productivity to your
-        workspace.
+        Resolvemos toda burocracia envolvida no Mercado Financeiro e nos Meios
+        de Pagamento para que você possa focar no que realmente importa, o seu
+        dinheiro!
       </p>
       <img alt={"Dashboard"} src={featureImage} />
     </div>
