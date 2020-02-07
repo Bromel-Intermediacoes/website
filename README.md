@@ -1,12 +1,9 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://raw.githubusercontent.com/histaff/website-static/development/static/images/histaff.png" width="60" />
+  <a href="https://github.com/Bromel-Intermediacoes/website">
+    <img alt="Brömel" src="https://github.com/Bromel-Intermediacoes/website/raw/master/static/images/logo.png" width="250" />
   </a>
 </p>
-<h1 align="center">
-  Bromel Static Website
-</h1>
 
 It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org), forked from [HiStaff](https://github.com/histaff/website-static).
 
