@@ -7,6 +7,8 @@
 
 It's a starter static website which useful plugins based on [Gatsby](https://www.gatsbyjs.org), forked from [HiStaff](https://github.com/histaff/website-static).
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1fd44e0c-acc2-4f55-b315-6ec33fbc1870/deploy-status)](https://app.netlify.com/sites/bromel/deploys)
+
 ## 🚀 Quick start
 
 1. **Install the Gatsby CLI.**
