@@ -188,6 +188,36 @@ body {
         }
       }
 
+      .features {
+        button {
+          margin: 1rem;
+          width: 40%;
+          border-radius: 25px;
+          padding: 16px 32px;
+          font-size: large;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .button1 {
+          background-color: #58b854;
+          color: white;
+          border: none;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+        .button2 {
+          background-color: #ffffff;
+          color: #58b854;
+          border: 2px solid #58b854;
+          a {
+            color: #58b854;
+            text-decoration: none;
+          }
+        }
+      }
+
       .thumbnail {
         img {
           max-width: 100%;
