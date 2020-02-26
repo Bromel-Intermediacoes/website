@@ -2,10 +2,9 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.svg"
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
+import undrawBusinessShop from "../../static/images/undraw_business_shop_qw5t.svg"
+import undrawPayOnline from "../../static/images/undraw_pay_online_b1hk.svg"
+import undrawTreasure from "../../static/images/undraw_treasure_of9i.svg"
 import thumbnailTeams from "../../static/images/feature-team.png"
 import thumbnailStaff from "../../static/images/feature-user.png"
 
@@ -20,7 +19,6 @@ const IndexPage = () => (
         de Pagamento para que você possa focar no que realmente importa, o seu
         dinheiro!
       </p>
-      <img alt={"Dashboard"} src={featureImage} />
     </div>
 
     <div className={"container"}>
@@ -29,17 +27,49 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Event"} src={thumbnailEvent} />
+                <img alt={"Event"} src={undrawPayOnline} />
               </div>
             </div>
 
             <div className={"col-6"}>
               <div className={"feature__content"}>
-                <h2>Create and Join Events</h2>
+                <h2>A melhor experiência com serviços financeiros</h2>
                 <p>
-                  Save your time and energy by letting HiStaff to manage your
-                  events (handle the colleague’s birthday, gathering, etc.)
+                  De pequenos empreendedores a grandes negócios, facilitamos a
+                  vida de quem precisa de soluções em meios de pagamentos.
+                  <br />
+                  <br />- Conta Digital
+                  <br />- Pagamentos Digitais <i>(para lojas virtuais)</i>
+                  <br />- Pagamentos Presenciais <i>(para lojas físicas)</i>
+                  <br />- Emissão de Boletos
+                  <br />- Conciliação
                 </p>
+                <h3>
+                  Pagamentos Omnichannel. O mundo online e físico sob sua gestão
+                  em um único local.
+                </h3>
+
+                <div className="features">
+                  <button className={"button1"}>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5519974011996&text=Ol%C3%A1,%20gostaria%20de%20criar%20uma%20conta%20na%20Bromel!"
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    >
+                      Criar Conta
+                    </a>
+                  </button>
+
+                  <button className={"button2"}>
+                    <a
+                      href="/dashboard"
+                      target={"_blank"}
+                      rel="noopener noreferrer"
+                    >
+                      Acessar
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -61,7 +91,7 @@ const IndexPage = () => (
 
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"Board"} src={thumbnailBoard} />
+                <img alt={"Board"} src={undrawBusinessShop} />
               </div>
             </div>
           </div>
@@ -71,7 +101,7 @@ const IndexPage = () => (
           <div className={"row"}>
             <div className={"col-6 first"}>
               <div className={"thumbnail"}>
-                <img alt={"News"} src={thumbnailNews} />
+                <img alt={"News"} src={undrawTreasure} />
               </div>
             </div>
 
