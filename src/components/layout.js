@@ -106,17 +106,17 @@ const Layout = ({ children }) => (
                     <ul>
                       <li>
                         <Link to="/contact" title={"Contact Us"}>
-                          Contact
+                          Contato
                         </Link>
                       </li>
                       <li>
                         <Link to="/privacy" title={"Privacy Policy"}>
-                          Privacy
+                          Política de Privacidade
                         </Link>
                       </li>
                       <li>
                         <Link to="/terms" title={"Terms Of Use"}>
-                          Terms Of Use
+                          Termos de Uso
                         </Link>
                       </li>
                     </ul>
@@ -142,14 +142,6 @@ const Layout = ({ children }) => (
                       title={"LinkedIn"}
                     >
                       <img alt={"LinkedIn"} src={iconLinkedin} />
-                    </a>
-                    <a
-                      href="https://github.com/histaff"
-                      target={"_blank"}
-                      rel="noopener noreferrer"
-                      title={"GitHub"}
-                    >
-                      <img alt={"GitHub"} src={iconGitHub} />
                     </a>
                     <a
                       href="https://www.instagram.com/histaff.io/"
