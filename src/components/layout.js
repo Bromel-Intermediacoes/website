@@ -75,7 +75,7 @@ const Layout = ({ children }) => (
                       </li>
                       <li>
                         <Link to="/about" title={"About Us"}>
-                          About
+                          Sobre
                         </Link>
                       </li>
                       <li>
