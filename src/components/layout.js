@@ -167,10 +167,26 @@ const Layout = ({ children }) => (
             <div className={"copyright"}>
               <p>
                 Copyright {new Date().getFullYear()}. {` `}{" "}
-                <a href="/" title={"Bromel Intermediacoes"}>
-                  Bromel Intermediacoes
+                <a href="/" title={"Brömel"}>
+                  Brömel
                 </a>
                 . Todos os direitos reservados.
+              </p>
+              <br />
+              <p>
+                Soluções Financeiras por{` `}{" "}
+                <a href="https://www.unbanked.com.br" title={"un_banked"}>
+                  un_banked
+                </a>
+                . Template do{" "}
+                <a href="https://www.gatsbyjs.org" title={"Gatsby"}>
+                  Gatsby
+                </a>{" "}
+                por {` `}{" "}
+                <a href="https://histaff.io" title={"histaff"}>
+                  histaff
+                </a>
+                .
               </p>
             </div>
           </div>
