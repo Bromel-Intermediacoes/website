@@ -5,12 +5,14 @@ import SEO from "../components/seo"
 
 const PrivacyPage = () => (
   <Layout>
-    <SEO title="Privacy Policy" />
+    <SEO title="Política de Privacidade" />
     <div className={"container"}>
       <div className={"content"}>
         <div className={"title"}>
           <h1>Política de Privacidade</h1>
         </div>
+
+        <p>Ultima Atualização: 27 de fevereiro de 2020.</p>
 
         <p>
           Na Brömel, acessível em https://www.bromel.com.br, uma de nossas
